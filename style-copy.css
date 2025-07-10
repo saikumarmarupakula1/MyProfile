@@ -1,0 +1,81 @@
+* {
+  background-color: black;
+  color: white;
+  margin: 10px 20px 0px 20px;
+}
+#terraform,
+#aws {
+  width: 80px;
+  height: 80px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid white;
+  gap: 30px;
+  margin-bottom: 0%;
+  flex-wrap: wrap;
+}
+.skills-container .skills-heading {
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  text-align: center;
+  margin-top: 2px;
+}
+h3 {
+  color: orange;
+}
+.skills-container {
+  border: 1px solid wheat;
+  margin-top: 0%;
+  border-top: none;
+}
+
+.skills {
+  margin-top: 0%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.header > #images {
+  align-self: center;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  text-align: end;
+  color: palevioletred;
+}
+#experience {
+  margin-top: 20px;
+}
+
+#experience #location,
+#duration {
+  margin-top: 0px;
+  color: palevioletred;
+}
+
+#experience li {
+  text-align: justify;
+  color: #66ccff;
+}
+
+#experience #tech-stack-header,
+#experience #tech-stack {
+  font-style: italic;
+  color: yellow;
+}
+
+#certifications li {
+  color: aquamarine;
+}
+
+#certifications {
+  margin-bottom: 20px;
+}
